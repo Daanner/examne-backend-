@@ -18,7 +18,9 @@ class EmpleadoSeeder extends Seeder
             ['nombre' => 'Diego', 'apellido' => 'García', 'correo' => 'diego.garcia@empresa.com', 'salario' => 2900.00],
             ['nombre' => 'Sofía', 'apellido' => 'Ramírez', 'correo' => 'sofia.ramirez@empresa.com', 'salario' => 3100.00],
             ['nombre' => 'Miguel', 'apellido' => 'Torres', 'correo' => 'miguel.torres@empresa.com', 'salario' => 2750.00],
-            ['nombre' => 'Elena', 'apellido' => 'Díaz', 'correo' => 'elena.diaz@empresa.com', 'salario' => 2850.00]
+            ['nombre' => 'Elena', 'apellido' => 'Díaz', 'correo' => 'elena.diaz@empresa.com', 'salario' => 2850.00],
+             ['nombre' => 'Juan', 'apellido' => 'perez', 'correo' => 'juan.diaz@empresa.com', 'salario' => 2220.00]
+   
         ];
 
         foreach ($empleados as $empleado) {
